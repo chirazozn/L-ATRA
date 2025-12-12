@@ -125,7 +125,7 @@ C’est pourquoi L’ATRA rassemble plusieurs univers culinaires, pour permettre
         
         <div className="social-icons-row">
           <a 
-            href="https://facebook.com" 
+            href="https://www.facebook.com/share/16kLKsWT1C/?mibextid=wwXIfr" 
             target="_blank" 
             rel="noopener noreferrer" 
             className="social-icon facebook"
@@ -136,7 +136,7 @@ C’est pourquoi L’ATRA rassemble plusieurs univers culinaires, pour permettre
           </a>
           
           <a 
-            href="https://instagram.com" 
+            href="https://www.instagram.com/latra_pizza?igsh=bTQ1Nmx6bW00NzVy" 
             target="_blank" 
             rel="noopener noreferrer" 
             className="social-icon instagram"
@@ -147,7 +147,7 @@ C’est pourquoi L’ATRA rassemble plusieurs univers culinaires, pour permettre
           </a>
           
           <a 
-            href="https://tiktok.com" 
+            href="https://www.tiktok.com/@latra.pizza?_r=1&_t=ZS-92AT2CLR68I" 
             target="_blank" 
             rel="noopener noreferrer" 
             className="social-icon tiktok"
@@ -227,7 +227,7 @@ C’est pourquoi L’ATRA rassemble plusieurs univers culinaires, pour permettre
     
     <div className="social-links">
       <a 
-        href="https://facebook.com" 
+        href="https://www.facebook.com/share/16kLKsWT1C/?mibextid=wwXIfr" 
         target="_blank" 
         rel="noopener noreferrer"
         className="social-icon"
@@ -238,7 +238,7 @@ C’est pourquoi L’ATRA rassemble plusieurs univers culinaires, pour permettre
       </a>
       
       <a 
-        href="https://instagram.com" 
+        href="https://www.instagram.com/latra_pizza?igsh=bTQ1Nmx6bW00NzVy" 
         target="_blank" 
         rel="noopener noreferrer"
         className="social-icon"
@@ -249,7 +249,7 @@ C’est pourquoi L’ATRA rassemble plusieurs univers culinaires, pour permettre
       </a>
       
       <a 
-        href="https://tiktok.com" 
+        href="https://www.tiktok.com/@latra.pizza?_r=1&_t=ZS-92AT2CLR68I" 
         target="_blank" 
         rel="noopener noreferrer"
         className="social-icon"

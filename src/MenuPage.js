@@ -71,7 +71,7 @@ const MenuPage = () => {
           
           <div className="social-links">
             <a 
-              href="https://facebook.com" 
+              href="https://www.facebook.com/share/16kLKsWT1C/?mibextid=wwXIfr" 
               target="_blank" 
               rel="noopener noreferrer"
               className="social-icon"
@@ -82,7 +82,7 @@ const MenuPage = () => {
             </a>
             
             <a 
-              href="https://instagram.com" 
+              href="https://www.instagram.com/latra_pizza?igsh=bTQ1Nmx6bW00NzVy" 
               target="_blank" 
               rel="noopener noreferrer"
               className="social-icon"
@@ -93,7 +93,7 @@ const MenuPage = () => {
             </a>
             
             <a 
-              href="https://tiktok.com" 
+              href="https://www.tiktok.com/@latra.pizza?_r=1&_t=ZS-92AT2CLR68I" 
               target="_blank" 
               rel="noopener noreferrer"
               className="social-icon"
