@@ -1,5 +1,7 @@
 import React from 'react';
 import './home.css';
+import SEO from './seo.js'; // Add at top with other imports
+
 import { Link } from 'react-router-dom'; // import Link
 import { useState } from 'react';
 import { 
@@ -28,6 +30,7 @@ const [menuOpen, setMenuOpen] = useState(false);
 
 
     <div>
+      <seo />
         
       {/* Header */}
 <header className="header">
@@ -63,12 +66,12 @@ const [menuOpen, setMenuOpen] = useState(false);
      {/* About Section */}
 <section id="about" className="section about-section">
   <h2>About Us</h2>
-  <p>
-  Bienvenue chez L’ATRA <br></br>
-Nous croyons que la cuisine — quelle qu’elle soit — doit raconter une histoire : celle du goût, de la passion, et des émotions.
-C’est pourquoi L’ATRA rassemble plusieurs univers culinaires, pour permettre à chacun de suivre sa propre envie…<br></br>
-
-« L’ATRA — Là où ton appétit te portera. »
+ <p>
+    <strong>Bienvenue chez L'ATRA Pizzeria à Birkhadem, Alger</strong><br/><br/>
+    Nous sommes spécialisés dans les <strong>pizzas au feu de bois</strong> et les <strong>sandwichs Pannuzo</strong>, préparés avec des ingrédients frais et de qualité.<br/><br/>
+    Notre pizzeria à Birkhadem vous propose une expérience unique de <strong>pizza traditionnelle</strong> avec une cuisson parfaite au feu de bois.<br/><br/>
+    <strong>Service de livraison rapide</strong> disponible pour Birkhadem et les quartiers voisins d'Alger.<br/><br/>
+    « L'ATRA — Là où votre envie de bonne pizza vous mène. »
   </p>
 </section>
 
