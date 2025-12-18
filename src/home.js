@@ -30,7 +30,12 @@ const [menuOpen, setMenuOpen] = useState(false);
 
 
     <div>
-      <seo />
+  {/* ADD SEO COMPONENT HERE - IT'S BEING USED NOW! */}
+      <SEO 
+        title="L'ATRA Pizzeria Birkhadem | Pizza au Feu de Bois & Sandwich Pannuzo | Livraison Rapide"
+        description="Pizzeria L'ATRA à Birkhadem, Alger. Pizzas traditionnelles au feu de bois, sandwichs Pannuzo. Livraison rapide au 0541 80 17 2. Commandez en ligne!"
+        keywords="pizza birkhadem, pizzeria alger, livraison pizza, feu de bois, sandwich pannuzo, restaurant birkhadem"
+      />
         
       {/* Header */}
 <header className="header">

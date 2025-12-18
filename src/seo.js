@@ -1,41 +1,54 @@
-// SEO.js - Add this component to your Home page
-import React from 'react';
-import { Helmet } from 'react-helmet-async'; // Install: npm install react-helmet-async
+// src/SEO.js
+import { Helmet } from 'react-helmet-async';
 
-const SEO = () => {
+const SEO = ({ title, description, keywords }) => {
   return (
     <Helmet>
-      {/* Canonical URL */}
-      <link rel="canonical" href="https://www.latra-pizza.dz" />
+      <title>{title}</title>
+      <meta name="description" content={description} />
+      {keywords && <meta name="keywords" content={keywords} />}
       
-      {/* Additional Meta Tags */}
-      <meta name="robots" content="index, follow" />
-      <meta name="author" content="L'ATRA Pizzeria" />
+      {/* Open Graph for Facebook */}
+      <meta property="og:title" content={title} />
+      <meta property="og:description" content={description} />
+      <meta property="og:type" content="website" />
+      <meta property="og:url" content={window.location.href} />
       
-      {/* Location-specific */}
-      <meta name="city" content="Birkhadem" />
-      <meta name="country" content="Algeria" />
+      {/* Twitter Card */}
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:title" content={title} />
+      <meta name="twitter:description" content={description} />
       
-      {/* Restaurant-specific */}
-      <meta name="restaurant:menu" content="https://www.latra-pizza.dz/menu" />
-      <meta name="restaurant:contact_info:phone_number" content="+213554180172" />
-      
-      {/* Structured Data for Menu */}
+      {/* Add restaurant-specific structured data */}
       <script type="application/ld+json">
-      {`
-        {
+        {JSON.stringify({
           "@context": "https://schema.org",
-          "@type": "Menu",
-          "name": "Menu L'ATRA Pizzeria",
-          "description": "Menu des pizzas au feu de bois et sandwichs Pannuzo",
-          "hasMenuSection": {
-            "@type": "MenuSection",
-            "name": "Pizzas au Feu de Bois",
-            "description": "Pizzas traditionnelles cuites au feu de bois"
+          "@type": "Restaurant",
+          "name": "L'ATRA Pizzeria",
+          "image": "https://l-atra.vercel.app/logo.jpg",
+          "description": description,
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Birkhadem",
+            "addressLocality": "Alger",
+            "addressRegion": "Alger",
+            "postalCode": "16000",
+            "addressCountry": "DZ"
           },
-          "url": "https://www.latra-pizza.dz/menu"
-        }
-      `}
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 36.72497,
+            "longitude": 3.036381
+          },
+          "url": "https://l-atra.vercel.app/",
+          "telephone": "+213554180172",
+          "openingHours": [
+            "Sa-Th 11:00-00:00",
+            "Fr 14:00-00:00"
+          ],
+          "servesCuisine": ["Pizza", "Italian", "Sandwich"],
+          "priceRange": "$$"
+        })}
       </script>
     </Helmet>
   );
