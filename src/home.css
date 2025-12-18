@@ -26,7 +26,7 @@ background-color: #ffffff;
   justify-content: space-between;
   align-items: center;
   padding: 15px 30px;
-  background: transparent; /* Rendre complètement transparent */
+    background:#150f08ce; /* COULEUR SOLIDE - NOIR */
   backdrop-filter: blur(5px); /* Réduire le flou */
   position: fixed; /* CHANGER sticky À fixed */
   top: 0;
@@ -113,7 +113,7 @@ background-color: #ffffff;
       position: fixed;
     top: 80px;
     right: 0;
-    background: #9e5400c5; /* COULEUR SOLIDE - NOIR */
+    background: #150f08; /* COULEUR SOLIDE - NOIR */
     flex-direction: column;
     width:  180px;
     height: calc(100vh - 80px);
