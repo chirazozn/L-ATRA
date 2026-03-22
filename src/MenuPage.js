@@ -10,13 +10,7 @@ import {
 
 
 const MenuPage = () => {
-  const info = {
-    horaires: "Sam - Jeu 11h00 à 00h00 • Vendredi 14h00 à 00h00",
-    telephone: "0554 180 172",
-    adresse: "Birkhadem, Alger",
-    specialite: "Pizza & Sandwich au feu de bois"
-  };
-
+ 
   return (
     <div className="menu-page">
       {/* HERO NORMAL (NON FIXE) */}
