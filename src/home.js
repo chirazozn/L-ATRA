@@ -6,12 +6,10 @@ import { useState } from 'react';
 import { 
   FaPhone, 
   FaClock, 
-  FaEnvelope, 
   FaFacebookF, 
   FaInstagram, 
   FaTiktok, 
   FaWhatsapp,
-  FaCalendarCheck
 } from 'react-icons/fa';import logo from './images/atralogo.jpg';
 
 const Home = () => {

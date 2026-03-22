@@ -3,13 +3,9 @@ import './MenuPage.css';
 import menuPhoto from './images/menu-photo.jpg';
 import { 
   FaPhone, 
-  FaClock, 
-  FaEnvelope, 
   FaFacebookF, 
   FaInstagram, 
   FaTiktok, 
-  FaWhatsapp,
-  FaCalendarCheck
 } from 'react-icons/fa';
 
 
