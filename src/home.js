@@ -110,8 +110,8 @@ const [menuOpen, setMenuOpen] = useState(false);
           </div>
           <div className="contact-details">
             <h3>Horaires d'ouverture</h3>
-            <p><strong>Sam - Jeu vendredi</strong><br />11h00 à 00h00 </p>
-                        <p><strong>vendredi </strong><br /> 14h00 à 00h00 </p>
+            <p><strong>Sam - Jeu </strong><br />11h00 à 23h30</p>
+                        <p><strong>vendredi </strong><br /> 17h30 à 23h30 </p>
 
             <p className="contact-note">Service continu tous les jours</p>
           </div>
